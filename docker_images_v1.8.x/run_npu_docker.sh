@@ -1,5 +1,4 @@
 #!/bin/bash
-
 export USER_CONTAINER_NAME=npu_v1.8.11_${USER}
 cnt=`sudo docker ps -a|grep "$USER_CONTAINER_NAME"|wc -l`
 echo $cnt
