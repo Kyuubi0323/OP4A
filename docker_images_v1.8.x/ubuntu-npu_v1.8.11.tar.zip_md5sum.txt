@@ -1,2 +1,0 @@
-root@18cb14984dc0:~# md5sum /workspace/ubuntu-npu_v1.8.11.tar.zip
-4f5dea8ed22dc1f62bc2510e1ab7e543  /workspace/ubuntu-npu_v1.8.11.tar.zip
