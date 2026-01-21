@@ -1,0 +1,3 @@
+[submodule "u-boot-orangepi"]
+	path = u-boot-orangepi
+	url = https://github.com/orangepi-xunlong/u-boot-orangepi.git
