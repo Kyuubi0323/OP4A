@@ -67,3 +67,6 @@ docker ps -a
 ```shell
 sudo docker exec -it docker_ID /bin/bash
 ```
+
+---
+

@@ -1,3 +1,6 @@
 [submodule "orangepi-build"]
 	path = orangepi-build
 	url = https://github.com/orangepi-xunlong/orangepi-build
+[submodule "docker_data/ai-sdk"]
+	path = docker_data/ai-sdk
+	url = https://github.com/ZIFENG278/ai-sdk.git
