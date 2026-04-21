@@ -1,2 +1,13 @@
 #!/bin/bash
- docker exec -it 694e33ea25aa35fce28cb2081c3691ddd53911aaa589740aa0c7702a8bf243c0 bash 
+
+CONTAINER_ID=$(docker ps --filter "name=allwinner" --format "{{.ID}}" | head -1)
+
+if [ -z "$CONTAINER_ID" ]; then
+    echo "Error: No running Allwinner container found."
+    echo "Running containers:"
+    docker ps --format "  {{.ID}}  {{.Names}}  {{.Image}}"
+    exit 1
+fi
+
+echo "Attaching to container: $(docker ps --filter "id=$CONTAINER_ID" --format "{{.Names}} ({{.ID}})")"
+docker exec -it "$CONTAINER_ID" /bin/bash
