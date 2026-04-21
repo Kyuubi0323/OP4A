@@ -36,6 +36,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 # Install ACUITY
 Tips
 Due to SDK version compatibility issues, different choices need to be made according to the NPU
+And here's the link to the docker img: https://drive.google.com/file/d/1U0rBrbYAlKnZhTWbbzzpgTCG8G4EKbLY/view?usp=drive_link
 
 ## Get the ACUITY download package
 ```
