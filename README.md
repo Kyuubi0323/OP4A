@@ -70,3 +70,14 @@ sudo docker exec -it docker_ID /bin/bash
 
 ---
 
+## Documentation
+
+For further information, refer to the docs below:
+
+| Document | Description |
+|---|---|
+| [Toolchain & Build Notes](docs/Notes.md) | Building U-Boot and kernel for OrangePi |
+| [ACUITY Toolkit Usage](docs/toolkit_usage.md) | Model parsing, quantization, compilation and simulation with ACUITY Toolkit |
+| [Model Testing Tool (vpm_run)](docs/model_testing_tool.md) | Running and validating NPU model files on the Allwinner T527 |
+| [Quantitative Accuracy Optimization](docs/quantitative_optimize.md) | KLD and mixed quantization strategies to recover model accuracy after quantization |
+
