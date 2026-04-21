@@ -276,8 +276,8 @@ The Vivante IDE allows you to validate the generated target model and OpenVX pro
 **X86 Linux PC**
 ```shell
 export USE_IDE_LIB=1
-export VIVANTE_SDK_DIR=~/Vivante_IDE/VivanteIDE5.11.0/cmdtools/vsimulator
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/Vivante_IDE/VivanteIDE5.11.0/cmdtools/common/lib:~/Vivante_IDE/VivanteIDE5.11.0/cmdtools/vsimulator/lib
+export VIVANTE_SDK_DIR=~/Vivante_IDE/VivanteIDE5.8.2/cmdtools/vsimulator
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/Vivante_IDE/VivanteIDE5.8.2/cmdtools/common/lib:~/Vivante_IDE/VivanteIDE5.8.2/cmdtools/vsimulator/lib
 unset VSI_USE_IMAGE_PROCESS
 ```
 
