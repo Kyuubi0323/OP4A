@@ -64,7 +64,9 @@ example: ./vpm_run -s sample.txt -l 10 -d 1  specify the NBG runs 10 times on de
 
 **Device**
 ```shell
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/rock/ai-sdk/viplite-tina/lib/aarch64-none-linux-gnu/v1.13  # NPU_SW_VERSION
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:your-path-to-sdk/ai-sdk/viplite-tina/lib/aarch64-none-linux-gnu/v1.13  # NPU_SW_VERSION
+## examples
+## export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/orangepi/work/npu/ai-sdk/viplite-tina/lib/aarch64-none-linux-gnu/v1.13
 ```
 
 > **Tips:** For the NPU version comparison table to determine `NPU_SW_VERSION`, T527 uses `v1.13`. Refer to the NPU version comparison table for more information.
