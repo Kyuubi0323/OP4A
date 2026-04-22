@@ -1,3 +1,5 @@
 *.tar
 
 docker_images_v1.8.x/*
+toolchain/*
+*.tar.gz
