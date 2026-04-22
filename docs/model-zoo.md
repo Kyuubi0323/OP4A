@@ -1,6 +1,7 @@
 
 ## About the allwinner model zoo
 ```shell
+wget https://dl.radxa.com/cubie/allwinner-model-zoo.tar.gz
 tar -xvf allwinner-model-zoo.tar.gz
 cd awnpu_model_zoo-v0.9.0-20260116-83a67d4b
 sudo docker run --ipc=host -d -v ${PWD}:/workspace --name model-zoo ubuntu-npu:v1.8.11 tail -f /dev/null
